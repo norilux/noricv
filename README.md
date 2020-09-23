@@ -1,6 +1,6 @@
 ## Available Scripts
 
-[What does it look like?](http://localhost:3000)
+[What does it look like?](https://noricv.netlify.app/)
 
 In the project directory, you can run:
 ### `npm start`
