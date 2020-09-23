@@ -3,9 +3,9 @@ import React from 'react';
 // Component data
 import { initialSocialImages } from './data'
 
-export default () => {
+export default props => {
     return (
-        <div className="social_button_mobile">
+        <div className={`social_button_mobile ${props.hideInMobile ? 'mobile_hide' : ''}`}>
             {initialSocialImages.map((element, index) =>
                 <div key={index} className="social_button mobile_block">
                     <a href={element.link}>

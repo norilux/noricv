@@ -18,11 +18,6 @@ export default () =>
                   </div>
                   <ImageElements.Avatar />
               </div>
-              <div className="column_container fdc">
-                  <nav>
-                      <Social />
-                  </nav>
-              </div>
           </div>
       </>
   )
