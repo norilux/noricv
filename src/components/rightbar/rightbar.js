@@ -1,8 +1,5 @@
 import React from 'react';
 
-// Components
-import Social from "../social";
-
 // Elements
 import {TextElements, ImageElements} from '../../elements';
 
